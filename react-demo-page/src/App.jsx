@@ -1,13 +1,10 @@
-import reactImage from './assets/react.svg'
+import Header from './components/Header.jsx'
 
 function App(){
-    const descriptions = ["Fundamental", " Core", "Crutial"]
-    function getRandomDescription(max){
-        return Math.floor(Math.random()*(max+1))
-    }
+   
     return (
         <div>
-            
+            <Header></Header>
         </div>
       
     )
