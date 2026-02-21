@@ -7,7 +7,7 @@ function Header() {
     }
 
     return(
-    <header className=' text-center my-12 mx-0'>
+    <header className=' text-center my-12 '>
                 <img src={reactImage} alt="react image "
                  className='w-40 h-20 mx-auto my-8 ' />
                  
